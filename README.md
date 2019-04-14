@@ -2,9 +2,12 @@
 Hello Reacter
 Just show source code from my last project, create form builder under React JS + Redux thunk with service worker enabled, offline databse enabled with Indexed DB ( one of Browser API ) part of Progressive Web App
 
+
 ## Demo
 
 Look up demo on https://react-form-builder-pwa.netlify.com
+
+![Image of Screenshot](https://github.com/agilworld/reactjs-redux-form-builder-indexedDB-dexie/raw/master/screenshot.png)
 
 ## Clone & Install
 
