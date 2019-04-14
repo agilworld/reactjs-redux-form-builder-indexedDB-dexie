@@ -9,4 +9,4 @@ Let me know if any bug issue or request pull requesst
 
 Thanks
 
-Collaboration with batamjs.org
+In Collaboration with http://batamjs.org
