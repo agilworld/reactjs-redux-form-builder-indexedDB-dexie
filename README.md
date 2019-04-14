@@ -6,7 +6,7 @@ Just show source code from my last project, create form builder under React JS +
 
 clone this repo from your favourite terminal or VSC then type `npm install`. run this code by `yarn start` or `npm run start`. Build this code by `yarn production` or `npm run production`
 
-## Credits :
+## Contributor :
 agil.rahadi@gmail.com a.k.a https://linkedin.com/id/dianafrial
 
 Let me know if any bug issue or request pull requesst
@@ -14,3 +14,9 @@ Let me know if any bug issue or request pull requesst
 Thanks
 
 In Collaboration with http://batamjs.org
+
+## Credits :
+
+- Bootstrap latest version
+- Dexie
+- Font awesome
