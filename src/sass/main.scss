@@ -1,0 +1,115 @@
+@import '../../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+body, html {
+    background: #eee;
+}
+
+.App {
+    text-align: center;   
+    .panel {
+        padding:20px;
+        &.card {
+            padding:0;
+            border:none;
+            margin-top:0px;
+            .panel-body {
+                padding:30px
+            }
+        }    
+        .panel-body {
+            padding:0;
+            border:none;
+        }
+        .footer-card {
+            padding:10px 20px;
+            background:#ececec;
+        }
+            
+    } 
+    .section {
+        margin-top:20px;
+       
+        .section-top {
+            box-shadow: 0px -2px 4px rgba(0,0,0,0.104);
+            display:flex;
+            position: relative;
+            background: #495057;
+            
+            height: 50px;
+            justify-content: space-between;
+            justify-items: left;
+            .form-control {
+                border-bottom:0;
+                padding-left:10px;
+                padding-right: 10px;
+                color:#fff;
+                background: #6c757d;
+            }
+        }
+        .section-panel {
+            padding:9px 30px 12px 12px;
+            font-size:20px;
+            color:#fff;
+            display: flex;
+            width: 400px;
+        }
+        .new-field {
+            display: flex;
+            padding:13px 20px;
+            display:block;
+            border-radius: 0px 5px 0px 0px;
+        }
+        .form-control{
+            border:none;
+            border-bottom:1px solid #ccc;  
+            margin-bottom:20px;
+            padding:10px 0px;
+            height: 44px;
+        }
+    }
+    
+    .card {
+        margin-top:20px;
+        box-shadow: 0px 0px 8px rgba(0,0,0,0.104);
+    }
+}
+ 
+.App .form-control{
+    border:none;
+    border-bottom:1px solid #ccc;  
+    margin-bottom:20px;
+    padding:10px 0px;
+    height: 44px;
+    border-radius: 0px;
+    &:focus {
+        border-bottom-color: blueviolet;
+        box-shadow: none;
+    }
+    &:first-child {
+        margin-top:0px;
+    }
+}
+
+.cardanim {
+    transform: scale(1);
+}
+.cardanim-enter {
+    opacity: 0.01;
+    transform: translateY(-20%) scale(1);
+}
+.cardanim-enter-active {
+    opacity: 1;
+    transform: translateY(0%) scale(1);
+    transition: all 300ms ease-out;
+}
+.cardanim-exit {
+    opacity: 1;
+    transform: scale(1);
+}
+.cardanim-exit-active {
+    opacity: 0;
+    transform: translateX(40%) scale(1);;
+    transition: all 300ms ease-in;
+}

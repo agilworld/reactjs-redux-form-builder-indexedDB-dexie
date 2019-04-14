@@ -1,0 +1,39 @@
+// Loader
+export const LOADER_START = 'LOADING_SPINNER_START'
+export const LOADER_COMPLETE = 'LOADING_SPINNER_COMPLETE'
+export const LOADER_ERROR = 'LOADING_SPINNER_ERROR'
+export const FORM_LOADING_START = 'FORM_LOADING_START'
+export const FORM_LOADING_FINISH = 'FORM_LOADING_FINISH'
+
+// Card
+export const CARD_NEW = "CARD_NEW"
+export const CARD_REMOVING = "CARD_REMOVING"
+export const CARD_REMOVED = "CARD_REMOVE"
+export const CARD_REQUIRED = "CARD_REQUIRED"
+export const ADD_QUESTION = "ADD_QUESTION"
+export const CHANGE_QUESTION = "CHANGE_QUESTION"
+export const CHANGE_TYPE = "CHANGE_TYPE"
+export const CHANGE_PLACEHOLDER = "CHANGE_PLACEHOLDER"
+export const ADD_OPTION = "ADD_OPTION"
+export const CHANGE_OPTION = "CHANGE_OPTION"
+export const REMOVE_OPTION = "REMOVE_OPTION"
+export const CHANGE_SECTION = "CHANGE_SECTION"
+
+// FOrm list
+export const FETCH_FORMS = "FETCH_FORMS"
+export const FETCH_FORM = "FETCH_FORM"
+export const SAVE_FORM = "SAVE_FORM"
+export const UPDATE_FORM = "UPDATE_FORM"
+export const CLEAR_FORM = "CLEAR_FORM"
+export const DELETE_FORM = "DELETE_FORM"
+
+// Modal
+export const MODAL_BUTTON_LOADING_START = "Modal/BUTTON_LOADING"
+export const MODAL_BUTTON_LOADING_END = "Modal/BUTTON_FINISH"
+export const MODAL_SHOW = "Modal/SHOW"
+export const MODAL_HIDE = "Modal/HIDE"
+
+
+
+// Exceptions
+export const GET_ERRORS = 'GET_ERRORS';
