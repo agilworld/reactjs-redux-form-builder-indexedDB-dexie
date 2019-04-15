@@ -11,7 +11,7 @@ Look up demo on https://react-form-builder-pwa.netlify.com
 
 ## Clone & Install
 
-clone this repo from your favourite terminal or VSC then type `npm install`. run this code by `yarn start` or `npm run start`. Build this code by `yarn production` or `npm run production`
+clone this repo from your favourite terminal or VSC then type `npm install`. run this code by `yarn start` or `npm run start`. Build this code by `yarn build` or `npm run build`
 
 ## Contributor :
 agil.rahadi@gmail.com a.k.a https://linkedin.com/in/dianafrial
